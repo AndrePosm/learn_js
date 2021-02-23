@@ -17,3 +17,33 @@ tiketToTheClub(age) {
 }
 
 
+
+//    tiketToTheClub(age) {
+//    return age > 18 ? true : false ;
+//    }
+
+//2. Создать функция, которая на вход принимает любой тип данных и если это строка
+  //нужно вернуть этуже строку, в обратном порядке.
+  //Если это число, нужно возвести его в 5 степень.
+  //Если это bool, то вернуть строку "Да"/"Нет"
+  //В противном случае просто вернуть аргумент который пришел
+
+const dataTypes = [ 'Sergey', 20, True, Null];
+
+function doSomething (types) {
+
+   if (typeof dataTypes === 'string');
+   
+       return str.split("").reverse().join("");
+  
+   } else if (typeof dataTypes === 'Number') {
+  Math.pow(dataTypes, 5 );
+} else if (typeof dataTypes === 'Boolean') {
+  return ;
+}
+ else {
+  return dataTypes;
+}
+}
+
+doSomething(dataTypes);
