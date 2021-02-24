@@ -47,3 +47,5 @@ function doSomething (types) {
 }
 
 doSomething(dataTypes);
+
+
